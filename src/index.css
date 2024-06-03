@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Fira+Sans&family=Oswald:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&display=swap");
+
+@import url("./reset.css");
+
+:root {
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Roboto Slab", sans-serif;
+
+  --black: #050505;
+  --brown: #321a01;
+  --white: #fffefb;
+  --green: #46461c;
+  --bg: #90af69;
+}
+
+body {
+  margin: 0 auto;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+section {
+  margin: 0 auto;
+  padding: 32px 20px;
+  position: relative;
+}
+
+h2 {
+  font-family: var(--font-family);
+  font-size: 24px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+p {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  h2 {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  p {
+    font-size: 20px;
+  }
+  section {
+    padding: 48px 40px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  h2 {
+    font-size: 68px;
+    margin-bottom: 48px;
+  }
+  p {
+    font-size: 28px;
+  }
+  section {
+    padding: 48px 60px;
+  }
+}
+
+@media only screen and (min-width: 1480px) {
+  section {
+    padding: 60px 80px;
+  }
+}
+
+.scroll_mark {
+  position: absolute;
+  opacity: 0;
+  top: -79px;
+  left: 0;
+}
+
+@media only screen and (min-width: minwidthpx) {
+  .scroll_mark {
+      top: -99px;
+
+  }
+}

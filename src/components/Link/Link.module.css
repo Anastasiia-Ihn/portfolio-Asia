@@ -1,0 +1,21 @@
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+
+}
+
+.link:hover {
+  color: var(--brown);
+  text-shadow: 1px 1px 2px rgb(104, 74, 74), 0 0 1em rgb(189, 134, 91), 0 0 0.2em rgb(149, 57, 29);
+  cursor: pointer;
+}
+
+.active {
+  color: var(--brown);
+}
+.default{
+    color: rgba(0, 0, 0, 0.8);
+      transition: color 2s ease-in-out;
+
+}
