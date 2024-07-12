@@ -29,7 +29,7 @@ const Header=({ list, idPreview }) =>{
           <a href="/">
             <img src={logo} alt="Logo" height={64} />
           </a>
-          <p>Anastasiia Ihnatchenko</p>
+          <p className={css.name}>Anastasiia Ihnatchenko</p>
         </div>
         {isMobile ? (
           <BurgerMenu list={list} idPreview={idPreview} />

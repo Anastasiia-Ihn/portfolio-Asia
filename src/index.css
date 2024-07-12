@@ -1,20 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Fira+Sans&family=Oswald:wght@400;700&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap");
 
 @import url("./reset.css");
 
 :root {
   --font-family: "Roboto", sans-serif;
-  --second-family: "Roboto Slab", sans-serif;
-
+  --second-family: "Playwrite CU", cursive;
   --black: #050505;
   --brown: #321a01;
+  --green2:#06431b;
   --white: #fffefb;
   --green: #46461c;
   --bg: #90af69;
+  --shadow-dark: rgba(0, 0,0, 0.25);
+  --shadow-light:rgba(255,255,255,0.25)
 }
 
 body {
@@ -35,8 +35,8 @@ section {
   position: relative;
 }
 
-h2 {
-  font-family: var(--font-family);
+h2,h3 {
+  font-family: var(--second-family);
   font-size: 24px;
   text-align: center;
   font-weight: 500;
