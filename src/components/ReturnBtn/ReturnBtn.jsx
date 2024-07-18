@@ -1,6 +1,6 @@
 import { useState } from "react";
 import css from "./ReturnBtn.module.css";
-import icons from "../../sprite.svg";
+import { FiArrowUp } from "react-icons/fi";
 
 const ReturnBtn = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -30,9 +30,7 @@ const ReturnBtn = () => {
         className={isVisible ? css.scrollToTopBtnActive : css.scrollToTopBtn}
         type="button"
       >
-        <svg className={css.iconArrow} width="25" height="29">
-          <use href={`${icons}#icon-arrow`}></use>
-        </svg>
+        <FiArrowUp />
       </button>
     </>
   );

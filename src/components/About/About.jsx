@@ -1,8 +1,13 @@
+import { useEffect } from "react";
+import aos from "aos";
 import css from "./About.module.css";
 
 const About = ({ aboutRef }) => {
+   useEffect(() => {
+     aos.init();
+   }, []);
   return (
-    <section className={css.section}>
+    <section data-aos="zoom-in" className={css.section}>
       <span className={"scroll_mark"} ref={aboutRef}></span>
       <h2>About me</h2>
       <p>

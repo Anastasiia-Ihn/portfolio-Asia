@@ -1,9 +1,10 @@
 import css from "./Link.module.css";
 
-const Link =({ name, link, id, closeMenu, idPreview }) =>{
-
+const Link = ({ name, link, id, closeMenu, idPreview }) => {
   const handleClick = () => {
-    closeMenu();
+    if (window.innerWidth < 1024) {
+      closeMenu();
+    }
     link();
   };
 
@@ -19,6 +20,6 @@ const Link =({ name, link, id, closeMenu, idPreview }) =>{
       </button>
     </li>
   );
-}
+};
 
 export default Link;

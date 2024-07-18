@@ -9,12 +9,12 @@
   --second-family: "Playwrite CU", cursive;
   --black: #050505;
   --brown: #321a01;
-  --green2:#06431b;
+  --green2: #06431b;
   --white: #fffefb;
   --green: #46461c;
   --bg: #90af69;
-  --shadow-dark: rgba(0, 0,0, 0.25);
-  --shadow-light:rgba(255,255,255,0.25)
+  --shadow-dark: rgba(0, 0, 0, 0.25);
+  --shadow-light: rgba(255, 255, 255, 0.25);
 }
 
 body {
@@ -35,7 +35,8 @@ section {
   position: relative;
 }
 
-h2,h3 {
+h2,
+h3 {
   font-family: var(--second-family);
   font-size: 24px;
   text-align: center;
@@ -86,9 +87,24 @@ p {
   left: 0;
 }
 
-@media only screen and (min-width: minwidthpx) {
+@media only screen and (min-width: 768px) {
   .scroll_mark {
-      top: -99px;
-
+    top: -99px;
   }
 }
+
+.visible-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+

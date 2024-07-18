@@ -1,3 +1,5 @@
+// import { ReactComponent as En } from "../../images/svg-color/en.svg";
+// import pl from "../../images/svg-color/pl.svg";
 const Languages = () => {
   return (
     <div>
