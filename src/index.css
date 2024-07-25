@@ -107,4 +107,19 @@ p {
   overflow: hidden;
 }
 
+.swiper > .swiper-button-prev,
+.swiper > .swiper-button-next {
+  color: var(--green2);
+}
 
+.swiper > .swiper-button-prev:hover,
+.swiper > .swiper-button-next:hover {
+  border-radius: 8px;
+  background: #8a9490b2;
+    color: #086b2b;
+
+}
+
+.swiper > .swiper-pagination > .swiper-pagination-bullet-active {
+  background: var(--green2);
+}

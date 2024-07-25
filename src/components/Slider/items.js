@@ -1,0 +1,58 @@
+export const items = [
+  {
+    id: 0,
+    name: "Baza Trainee Ukraine",
+    img: "/images/slides/baza2-min.png",
+    link: "https://baza-2-front-one.vercel.app/ua",
+    utilities: ["React.js", "Node.js", "Styled components", "Express.js"],
+  },
+  {
+    id: 1,
+    name: "44th Mechanized Brigade",
+    img: "/images/slides/donate-min.png",
+    link: "https://44-zbir.vercel.app",
+    utilities: ["React.js", "Node.js", "Styled components", "Express.js"],
+  },
+  {
+    id: 2,
+    name: "TaskPro",
+    img: "/images/slides/tasks-min.png",
+    link: "https://boommmeran.github.io/team-five/welcome",
+    utilities: ["React.js", "Node.js", "Styled components", "Express.js"],
+  },
+  {
+    id: 3,
+    name: "Rent cars",
+    img: "/images/slides/cars-min.png",
+    link: "https://baza-2-front-one.vercel.app/ua",
+    utilities: ["React.js", "Node.js", "Styled components", "Express.js"],
+  },
+  {
+    id: 4,
+    name: "Films",
+    img: "/images/slides/films-min.png",
+    link: "https://baza-2-front-one.vercel.app/ua",
+    utilities: ["React.js", "Node.js", "Styled components", "Express.js"],
+  },
+  {
+    id: 5,
+    name: "Apps for Managing Contacts",
+    img: "/images/slides/contacts-min.png",
+    link: "https://baza-2-front-one.vercel.app/ua",
+    utilities: ["React.js", "Node.js", "Styled components", "Express.js"],
+  },
+  {
+    id: 6,
+    name: "",
+    img: "/images/slides/food.png",
+    link: "https://baza-2-front-one.vercel.app/ua",
+    utilities: ["React.js", "Node.js", "Styled components", "Express.js"],
+  },
+  {
+    id: 7,
+    name: "Baza Trainee Ukraine",
+    img: "/images/slides/baza2-min.png",
+    link: "https://baza-2-front-one.vercel.app/ua",
+    utilities: ["React.js", "Node.js", "Styled components", "Express.js"],
+  },
+];

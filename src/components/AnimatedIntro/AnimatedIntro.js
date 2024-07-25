@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import css from './AnimatedIntro.module.css'
+import css from "./AnimatedIntro.module.css";
+import { InfinitySpin } from "react-loader-spinner";
 
 const containerStyles = {
   hidden: { opacity: 0, scale: 0.8 },
@@ -39,10 +40,13 @@ const AnimatedIntro = () => {
           <motion.h1 className={css.header} variants={textStyles}>
             Welcome to my site
           </motion.h1>
-          <div className={css.wrapper}>
-            <div className={`${css.line} ${css.left}`} />
-            <div className={`${css.line} ${css.right}`} />
-          </div>
+
+          <InfinitySpin
+            visible={true}
+            width="200"
+            color="#4fa94d"
+            ariaLabel="infinity-spin-loading"
+          />
           <motion.p variants={textStyles} style={{ transitionDelay: "0.5s" }}>
             I am Anastasiia Ihnatchenko
           </motion.p>

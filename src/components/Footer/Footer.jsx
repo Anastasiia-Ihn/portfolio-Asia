@@ -6,18 +6,25 @@ import css from "./Footer.module.css";
 const Footer = ({ contactsRef }) => {
   return (
     <footer className={css.sectionFooter}>
+      <span className={"scroll_mark"} ref={contactsRef}></span>
       <h2>Let's work together. </h2>
       {/* <p>
         I'm available for interview at any time and await your response with
         much anticipation.
       </p> */}
-      <Contacts contRef={contactsRef} />
-      <span className={"scroll_mark"} ref={contactsRef}></span>
-
+      <Contacts />
       <p className={css.text}>
         Built with
-        <Icon className={css.icon} stroke="red" fill="#db0707" name="heart" width="35" height="35" />
-        by Asia Ihnatchenko using <LiaReact className={css.icon} color="#4881b1" size="35" />
+        <Icon
+          className={css.icon}
+          stroke="red"
+          fill="#db0707"
+          name="heart"
+          width="35"
+          height="35"
+        />
+        by Asia Ihnatchenko using{" "}
+        <LiaReact className={css.icon} color="#4881b1" size="35" />
       </p>
     </footer>
   );

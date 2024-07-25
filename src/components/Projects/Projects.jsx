@@ -1,3 +1,4 @@
+import Slider from "../Slider/Slider";
 import css from "./Projects.module.css";
 
 const Projects = ({ projectsRef }) => {
@@ -6,6 +7,7 @@ const Projects = ({ projectsRef }) => {
       <section className={css.section}>
         <span className={"scroll_mark"} ref={projectsRef}></span>
         <h2>Projects</h2>
+        <Slider/>
       </section>
     </>
   );

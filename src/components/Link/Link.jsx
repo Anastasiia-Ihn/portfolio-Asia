@@ -12,9 +12,7 @@ const Link = ({ name, link, id, closeMenu, idPreview }) => {
     <li>
       <button
         onClick={handleClick}
-        className={`${css.link} ${
-          idPreview === id ? css.active : css.default
-        } `}
+        className={css.link}
       >
         {name}
       </button>

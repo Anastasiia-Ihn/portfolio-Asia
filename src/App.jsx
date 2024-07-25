@@ -48,9 +48,9 @@ const App = () => {
   };
 
   const scrollToContacts = () => {
-    contactsRef.current.scrollIntoView({ behavior: "smooth" });
-    setSectionId(dataHeader[3].id);
-  };
+   contactsRef.current.scrollIntoView({ behavior: "smooth" });
+   setSectionId(dataHeader[3].id);
+ };
 
   const setSectionId = (sectionId) => {
     setPreviewSection(sectionId);
