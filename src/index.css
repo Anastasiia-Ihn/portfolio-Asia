@@ -48,9 +48,9 @@ p {
 }
 
 @media screen and (min-width: 768px) {
-  h2 {
+  h2,h3 {
     font-weight: 600;
-    font-size: 40px;
+    font-size: 36px;
     margin-bottom: 40px;
   }
   p {
@@ -63,8 +63,7 @@ p {
 
 @media only screen and (min-width: 1024px) {
   h2 {
-    font-size: 68px;
-    margin-bottom: 48px;
+    margin-bottom: 40px;
   }
   p {
     font-size: 28px;
@@ -116,7 +115,7 @@ p {
 .swiper > .swiper-button-next:hover {
   border-radius: 8px;
   background: #8a9490b2;
-    color: #086b2b;
+    color: var(--white);
 
 }
 

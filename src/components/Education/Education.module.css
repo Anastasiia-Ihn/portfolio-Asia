@@ -8,7 +8,7 @@
   display: block;
   color: var(--green2);
   cursor: pointer;
-  margin-bottom: 16px;
+  margin-bottom: 4px;
   margin-left: 12px;
   text-decoration: underline;
 }

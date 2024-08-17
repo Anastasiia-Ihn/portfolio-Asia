@@ -7,7 +7,7 @@ const Footer = ({ contactsRef }) => {
   return (
     <footer className={css.sectionFooter}>
       <span className={"scroll_mark"} ref={contactsRef}></span>
-      <h2>Let's work together. </h2>
+      <h3>Let's work together. </h3>
       {/* <p>
         I'm available for interview at any time and await your response with
         much anticipation.

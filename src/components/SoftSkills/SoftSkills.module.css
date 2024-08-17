@@ -1,16 +1,18 @@
 .list{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    justify-items: center;
     gap: 15px;
-
-    li{
-            margin-left: 24px;
-
-    }
 
     li::marker{
         content: '✧';
         display: block;
-        margin: 50px;
-    }
+        color: var(--green2);
+        }
+}
+@media only screen and (min-width: 500px) {
+   .list{
+        grid-template-columns: 1fr 1fr;
+
+  }
 }

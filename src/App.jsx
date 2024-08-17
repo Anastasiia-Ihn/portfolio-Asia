@@ -48,9 +48,9 @@ const App = () => {
   };
 
   const scrollToContacts = () => {
-   contactsRef.current.scrollIntoView({ behavior: "smooth" });
-   setSectionId(dataHeader[3].id);
- };
+    contactsRef.current.scrollIntoView({ behavior: "smooth" });
+    setSectionId(dataHeader[3].id);
+  };
 
   const setSectionId = (sectionId) => {
     setPreviewSection(sectionId);
@@ -98,15 +98,17 @@ const App = () => {
           initial="hidden"
           animate="visible"
         >
-          <Header list={dataHeader} idPreview={previewSection} />
-          <main>
-            <Hero />
-            <About aboutRef={aboutRef} />
-            <Skills skillsRef={skillsRef} />
-            <Projects projectsRef={projectsRef} />
-          </main>
-          <Footer contactsRef={contactsRef} />
-          <ReturnBtn />
+          <>
+            <Header list={dataHeader} idPreview={previewSection} />
+            <main>
+              <Hero />
+              <About aboutRef={aboutRef} />
+              <Skills skillsRef={skillsRef} />
+              <Projects projectsRef={projectsRef} />
+            </main>
+            <Footer contactsRef={contactsRef} />
+            <ReturnBtn />
+          </>
         </motion.div>
       )}
     </>

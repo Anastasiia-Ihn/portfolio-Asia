@@ -4,7 +4,7 @@ import css from "./Contacts.module.css";
 const Contacts = () => {
   return (
     <div>
-      <h3> I'm available to contact.</h3>
+      <p className={css.text}> I'm available to contact.</p>
       <ul className={css.list}>
         <li>
           <a

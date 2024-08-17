@@ -7,7 +7,10 @@ const Slide = ({ item }) => {
         <img className={css.image} src={img} alt={name} />
       </div>
       <div className={css.content}>
-        <a href={link}>Open site</a>
+        <a target="_blank" rel="noreferrer noopener" href={link}>
+          Open site
+        </a>
+
         <ul className={css.list}>
           {utilities?.map((item) => (
             <li key={item}>{item}</li>

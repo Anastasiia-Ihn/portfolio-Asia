@@ -1,0 +1,16 @@
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    li{
+        display: flex;
+        align-items: center;
+    }
+}
+
+.flag{
+    height: 30px;
+    width: 40px;
+    margin-right: 16px;
+}

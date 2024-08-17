@@ -3,13 +3,12 @@
   grid-template-columns: 1fr;
   font-family: var(--second-family);
   color: var(--black);
-  margin-top: 80px;
   width: 100%;
-
-  img {
-    display: none;
-  }
 }
+.image {
+  display: none;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -26,18 +25,11 @@
 @media only screen and (min-width: 550px) {
   .hero {
     grid-template-columns: 30% 1fr;
-  gap: 20px;
-
-    img {
-      display: block;
-      width: 100%;
-      border-radius: 50%;
-    }
+    gap: 20px;
   }
-}
-
-@media only screen and (min-width: 1024px) {
-  .hero {
-    margin-top: 100px;
+  .image {
+    display: block;
+    width: 100%;
+    border-radius: 50%;
   }
 }
